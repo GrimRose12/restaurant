@@ -17,6 +17,10 @@ const path = require('path');
           template: './src/index.html', // html template
       }),
       ],
+    devServer: {
+      watchFiles: ["src/*.html"], // allows html changes to cause server to update
+      hot: true,
+    },
     optimization: { 
       usedExports: true, // tree shaking
       moduleIds: 'deterministic', // to prevent vendor hash names to be changed
