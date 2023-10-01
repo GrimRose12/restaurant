@@ -1,0 +1,1 @@
+{"version":3,"file":"index.5225332dff61e38103ee.js","mappings":"wGAAAA,MAAM,wB","sources":["webpack://webpackcustomconfigs/./src/index.js"],"sourcesContent":["alert(\"Index card activated!\")"],"names":["alert"],"sourceRoot":""}
