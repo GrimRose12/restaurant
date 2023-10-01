@@ -1,0 +1,2 @@
+(self.webpackChunkwebpackcustomconfigs=self.webpackChunkwebpackcustomconfigs||[]).push([[826],{138:()=>{alert("Index card activated!")}},c=>{c(c.s=138)}]);
+//# sourceMappingURL=index.5225332dff61e38103ee.js.map
