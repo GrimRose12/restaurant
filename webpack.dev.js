@@ -7,8 +7,9 @@ module.exports = merge(common,{
     devtool: 'inline-source-map', // allows to track error
     devServer: { // for webpack dev server
         static: './dist',
+        watchFiles: ["src/*.html"], // allows html changes to cause server to update
+        hot: true,
       },
-    
    
     
     
