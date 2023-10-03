@@ -17,10 +17,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
           template: './src/index.html', // html template
       }),
       ],
-    // devServer: {
-    //   watchFiles: ["src/*.html"], // allows html changes to cause server to update
-    //   hot: true,
-    // },
     optimization: { 
       usedExports: true, // tree shaking
       moduleIds: 'deterministic', // to prevent vendor hash names to be changed
@@ -40,7 +36,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
       rules: [
         {
           test: /\.css$/i,
-          // sideEffects: true,
           use: ['style-loader', 'css-loader'],
         },
         {
